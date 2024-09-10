@@ -1,0 +1,248 @@
+.nblack {
+    background-color: white;
+}
+
+/* navbar */
+.navbar {
+    background-color: black;
+    padding: 10px 0 10px 0;
+}
+
+.nav-logo {
+    display: inline-block;
+    height: 20px;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    padding-left: 15px;
+}
+
+.navbar p {
+    text-align: end;
+    font-size: 17px;
+    color: aquamarine;
+    padding: 15px 20px 0 10px;
+}
+
+.go_back {
+    cursor: w-resize;
+    text-decoration: none;
+    color: aquamarine;
+    padding: 0 10px 0 0;
+}
+
+/* title */
+.game_title {
+    text-align: center;
+    padding: 90px 0 80px 0;
+}
+
+.game_title img {
+    height: 280px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.map_name {
+    background-color: black;
+    position: relative;
+}
+
+.map_name .img1 {
+    display: inline-block;
+    height: 300px;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+}
+
+.map_name .img2 {
+    display: inline-block;
+    height: 300px;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.map_name h1 {
+    font-family: 'Rubik Microbe', cursive;
+    font-size: 100px;
+    color: aliceblue;
+    text-align: center;
+    height: 300px;
+    padding: 75px 0 0 0;
+    margin: 0;
+}
+
+.map_name img:hover {
+    opacity: 1;
+}
+
+.map_name h1:hover {
+    font-size: 103px;
+
+}
+
+.instructions ul {
+    padding: 10px 0 40px 250px;
+}
+
+
+.instructions h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    padding: 20px 0 20px 0;
+    letter-spacing: 10px;
+}
+
+.instructions h1:hover {
+    font-size: 72px;
+    padding: 23px 0 15px 0;
+}
+
+.instructions ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 0;
+}
+
+.time_alloted h1 {
+    text-align: center;
+    margin: 0;
+}
+
+hr {
+    width: 10%;
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 10px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.btn-div {
+    text-align: center;
+    padding: 80px;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 0 5px 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.tounhide {
+    display: none;
+}
+
+/* after play button */
+
+#progressBar {
+    width: 90%;
+    margin: 25px auto;
+    height: 22px;
+    background-color: #0A5F44;
+}
+
+#progressBar div {
+    height: 100%;
+    text-align: right;
+    padding: 0 10px;
+    line-height: 22px;
+    width: 0;
+    background-color: #CBEA00;
+    box-sizing: border-box;
+}
+
+.maze_nav {
+    display: none;
+}
+
+.hidden_in_nav {
+    display: none;
+}
+
+/* board */
+#board {
+    margin: 5px;
+    border: 5px solid rgb(50,91,148);
+}
+
+#board td {
+    width: 120px;
+    height: 40px;
+    background-color: black;
+}
+
+.ghost {
+    text-align: center;
+    color: white;
+}
+
+.house {
+    text-align: center;
+    color: white;
+}
+
+.wall img {
+    width: 50px;
+    height: 40px;
+    opacity: 1;
+}
+
+.visited .fa-ghost {
+    opacity: 0.6;
+    color: white;
+}
+
+.visited {
+    text-align: center;
+}
+
+/* timeup */
+.tounhide2 {
+    display: none;
+}
+
+.sol_h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+    padding: 10px 0 30px 0;
+    display: block;
+}
+
+.hidden_h1 {
+    display: none;
+}
+
+.ghost_coloured_start {
+    color: green;
+    text-align: center;
+}
+
+.ghost_coloured_end {
+    color: green;
+    text-align: center;
+}
+
+.invisible{
+display:none;
+}
+.GB{
+    text-align:center;
+    color: black;
+    font-family: courier;
+    font-size: 25px;
+
+}
